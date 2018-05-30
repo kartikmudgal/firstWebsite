@@ -1,0 +1,11 @@
+<?php
+
+	require "config.php";
+	try {
+		$connection = new PDO("mysql:host=$host", $username, $password, $options);
+		$sql = file_get_contents("data.sql");
+		$connection->exec($sql);
+		echo "DATABASE Succesfully created";
+	} catch (PDOException $error) {
+		echo $error->getMessage();
+	}
