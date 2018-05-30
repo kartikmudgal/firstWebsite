@@ -1,0 +1,12 @@
+CREATE DATABASE test;
+USE test;
+
+CREATE table users(
+	id INT(11) AUTO_INCREMENT PRIMARY KEY,
+	firstname VARCHAR(32) NOT NULL,
+	lastname VARCHAR(32) NOT NULL,
+	email VARCHAR(32) NOT NULL,
+	age INT(3) NOT NULL,
+	location VARCHAR(32) NOT NULL,
+	password VARCHAR(32) NOT NULL
+);
