@@ -18,9 +18,9 @@
 		$connection = new PDO($dsn,$username,$password,$options);
 		$sql = "SELECT id,firstname,lastname,email,age,location FROM users";
 		$statement = $connection->prepare($sql);
-		statement->execute();
+		$statement->execute();
 		$result = $statement->fetchAll();
-	} catch(PDOException as $e){
+	} catch(PDOException $e){
 		echo $e->getMessage();
 	}
 ?>
