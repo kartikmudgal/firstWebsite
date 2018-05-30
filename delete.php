@@ -58,5 +58,5 @@
 		<?php } ?>
 	</tbody>
 </table>
-
+<a href="index.php" style="background-color: yellow;color: red;padding: 14px 25px;text-align: right; text-decoration: none;display: inline-block;">BACK TO HOME</a>
 <?php require "footer.php"; ?>
