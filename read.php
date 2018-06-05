@@ -1,3 +1,4 @@
+
 <?php require "header.php" ?>
 <h2>Search By Location</h2>
 <form method = "post" action = "readAction.php">

@@ -1,6 +1,7 @@
 <?php
-	$row_count = 0;
-	if(isset($_POST['submit'])) {
+//print_r($_POST);
+//die;
+	if(isset($_POST['SEARCH'])) {
 		require "config.php";
 		require "common.php";
 		try {
@@ -21,7 +22,7 @@
 ?>
 <?php require "header.php" ?>
 <?php
-	if(isset($_POST['submit'])) {
+	if(isset($_POST['SEARCH'])) {
 		if($result && $row_count > 0){ ?>
 		<h2>RESULTS</h2>
 		<table>

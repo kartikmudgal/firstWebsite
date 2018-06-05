@@ -1,6 +1,12 @@
 
 <?php
+//print_r($_POST);
+//die;
+
 	if (isset($_POST["submit"])) {
+
+		//echo "inside"; die;
+
 		require "config.php";
 		require "common.php";
 		try {

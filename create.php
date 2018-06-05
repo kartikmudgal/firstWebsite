@@ -15,7 +15,7 @@
 	<input type="text" name="location" id = "location"/><br>
 	PASSWORD<br>
 	<input type="password" name="password" id = "password"/><br><br>
-	<input type="submit" name="SUBMIT">
+	<input type="submit" name="submit">
 </form><br>
 
 <a href="index.php" style="background-color: yellow;color: red;padding: 14px 25px;text-align: right; text-decoration: none;display: inline-block;">BACK TO HOME</a>
